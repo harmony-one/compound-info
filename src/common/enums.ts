@@ -22,6 +22,10 @@ export enum Token {
 	USDP = "USDP",
 	REP = "REP",
 	FEI = "FEI",
+	ONE = "ONE",
+	"1USDC" = "1USDC",
+	"1USDT" = "1USDT",
+	"1ETH" = "1ETH",
 }
 
 /**

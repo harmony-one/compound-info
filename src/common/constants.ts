@@ -17,6 +17,7 @@ import saiSvg from "assets/coins/DAI.svg";
 import usdpSvg from "assets/coins/USDP.svg";
 import repSvg from "assets/coins/REP.svg";
 import feiSvg from "assets/coins/FEI.svg";
+import oneSvg from "assets/coins/ONE.svg";
 
 import { Token, TimeSelector, ProtocolDataSelector, MarketDataSelector, DataResolution, Unit } from "common/enums";
 import {
@@ -231,6 +232,49 @@ export const TOKEN_INFO: TokenInfoList = {
 		website: "https://fei.money",
 		twitter: "https://twitter.com/feiprotocol",
 		coinGecko: "https://www.coingecko.com/en/coins/fei-usd",
+	},
+	[Token["1USDC"]]: {
+		symbol: Token["1USDC"],
+		imgSrc: usdcSvg,
+		desc: `USD Coin (USDC) is a stablecoin fully backed by the US dollar and
+		developed by the CENTRE consortium. USDC can be exchanged for dollars
+		1:1 on Coinbase and other exchanges.`,
+		whitepaper: "https://f.hubspotusercontent30.net/hubfs/9304636/PDF/centre-whitepaper.pdf",
+		website: "https://www.circle.com/usdc",
+		twitter: "https://twitter.com/circlepay",
+		coinGecko: "https://www.coingecko.com/coins/usd-coin",
+	},
+	[Token["1USDT"]]: {
+		symbol: Token["1USDT"],
+		imgSrc: usdtSvg,
+		desc: `Tether (USDT) is a stablecoin that is pegged to the value of a U.S.
+		dollar. Tether’s issuer claims that USDT is backed by bank reserves and
+		loans which match or exceed the value of USDT in circulation.`,
+		whitepaper: "https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf",
+		website: "https://tether.to/",
+		twitter: "https://twitter.com/Tether_to",
+		coinGecko: "https://www.coingecko.com/en/coins/tether",
+	},
+	[Token["1ETH"]]: {
+		symbol: Token["1ETH"],
+		imgSrc: ethSvg,
+		desc: `Ethereum is a decentralized computing platform that uses ETH
+		(also called Ether) to pay transaction fees (or “gas”). Developers can use
+		Ethereum to run decentralized applications (like Compound) and issue new
+		crypto assets, known as Ethereum tokens (ERC-20).`,
+		whitepaper: "https://ethereum.org/whitepaper/",
+		website: "https://ethereum.org",
+		twitter: "https://twitter.com/ethereum",
+		coinGecko: "https://www.coingecko.com/coins/ethereum",
+	},
+	[Token.ONE]: {
+		symbol: Token.ONE,
+		imgSrc: oneSvg,
+		desc: `TBE`,
+		whitepaper: "TBE",
+		website: "TBE",
+		twitter: "TBE",
+		coinGecko: "https://www.coingecko.com/en/coins/harmony",
 	},
 };
 

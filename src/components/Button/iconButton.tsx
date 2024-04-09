@@ -53,13 +53,13 @@ export function IconButton({}) {
 						<Typography.caption>
 							This app is an open-source standalone dashboard for the{" "}
 							<StyledExternalLink href={URLS.COMPOUND_FINANCE} variant="secondary">
-								Compound protocol
+								Lend Protocol
 							</StyledExternalLink>
 							. It was built to provide transparency on historical market APYs to borrowers and lenders in hopes of
 							improving investment decisions.
 							<br />
 							<br />
-							Have a question? Want to improve the dashboard? Feel free to open an issue on{" "}
+							The main source code was built by Paperclip Labs. Original source code:{" "}
 							<StyledExternalLink href={URLS.GITHUB} variant="secondary">
 								GitHub
 							</StyledExternalLink>

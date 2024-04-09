@@ -91,7 +91,10 @@ function TableRow({
 		return (
 			<RowEntry key={i} left={i === 0}>
 				{i === 0 && !!token && <TokenLogo token={token} />}
-				{formatNumber(marketData[columnInfo.key] ?? 0, columnInfo.unit)}
+				{/* Harmony tokens start with 1 and this does not work well with formatNumber function */}
+				{columnInfo.key === "underlyingSymbol"
+					? marketData[columnInfo.key]
+					: formatNumber(marketData[columnInfo.key] ?? 0, columnInfo.unit)}
 			</RowEntry>
 		);
 	});

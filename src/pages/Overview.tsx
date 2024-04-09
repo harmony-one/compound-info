@@ -5,7 +5,7 @@ import styled, { useTheme } from "styled-components";
 import { TimeSelector, MarketDataSelector, ProtocolDataSelector, DataType } from "common/enums";
 
 import { Typography } from "theme";
-import compoundLogo from "assets/compoundLogo.svg";
+import compoundLogo from "assets/lendLogo.png";
 import Logo from "components/Logo";
 import Row, { ResponsiveJustifyRow, ResponsiveRow } from "components/Row";
 import Card, { StatCard, ProgressCard } from "components/Card";
@@ -77,7 +77,7 @@ export default function Overview(): JSX.Element | null {
 	return (
 		<>
 			<Row height="40px" margin={"20px 0"}>
-				<Logo src={compoundLogo} size="40px" />
+				<Logo src={compoundLogo} />
 				<Typography.displayXL>Lend V2 Protocol</Typography.displayXL>
 			</Row>
 			<Row>
@@ -136,13 +136,13 @@ export default function Overview(): JSX.Element | null {
 				<Row>
 					<Typography.displayS>All Markets</Typography.displayS>
 				</Row>
-				<ResponsiveJustifyRow justifyLarge="flex-end" justifySmall="flex-end" justifyExtraSmall="flex-start">
+				{/* <ResponsiveJustifyRow justifyLarge="flex-end" justifySmall="flex-end" justifyExtraSmall="flex-start">
 					<TooltipText
 						baseText={<Typography.body color={theme.color.text2}>Include COMP</Typography.body>}
 						tooltipContent="Toggle to include the COMP token distribution in the APY's. Note that a negative borrow rate means that the Compound protocol pays you."
 					/>
 					<ToggleButton active={includeComp} onClick={() => setIncludeComp(!includeComp)} />
-				</ResponsiveJustifyRow>
+				</ResponsiveJustifyRow> */}
 			</ResponsiveRow>
 			<TableCard>
 				<TokenTable data={marketSummaryData} dataSelectors={tokenTableDataSelectors} />

@@ -156,13 +156,13 @@ export default function Market({ match }): JSX.Element | null {
 							<Row>
 								<Typography.displayS>APY Performance</Typography.displayS>
 							</Row>
-							<ResponsiveJustifyRow justifyLarge="flex-end" justifySmall="flex-end" justifyExtraSmall="flex-start">
+							{/* <ResponsiveJustifyRow justifyLarge="flex-end" justifySmall="flex-end" justifyExtraSmall="flex-start">
 								<TooltipText
 									baseText={<Typography.body color={theme.color.text2}>Include COMP</Typography.body>}
 									tooltipContent="Toggle to include the COMP token distribution in the APY chart data. Note that a negative borrow rate means that the Compound protocol pays you."
 								/>
 								<ToggleButton active={includeComp} onClick={() => setIncludeComp(!includeComp)} />
-							</ResponsiveJustifyRow>
+							</ResponsiveJustifyRow> */}
 						</ResponsiveRow>
 						<Card>
 							<TokenSelectorTimeSeriesChart

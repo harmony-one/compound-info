@@ -433,8 +433,8 @@ export const URLS = {
 	GITHUB: "https://github.com/papercliplabs/compound-info",
 	// SUBGRAPH_API: `https://gateway.thegraph.com/api/${process.env.REACT_APP_COMPOUND_INFO_SUBGRAPH_API_KEY}/deployments/id/Qma2AGkEDaTqkvHC8kABTjezh3WXqgPJCAdXGQKBX1srMf`,
 	// SUBGRAPH_API: "https://api.thegraph.com/subgraphs/name/papercliplabs/compound-info",
-	SUBGRAPH_API: process.env.SUBGRAPH_API,
-	SUBGRAPH_FRONT_END: process.env.SUBGRAPH_API_STATUS,
+	SUBGRAPH_API: process.env.REACT_APP_SUBGRAPH_API ?? "",
+	SUBGRAPH_FRONT_END: process.env.REACT_APP_SUBGRAPH_API_STATUS ?? "",
 };
 
 // ID where the protocol mapping

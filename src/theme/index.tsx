@@ -40,13 +40,13 @@ export function theme(darkMode: boolean): DefaultTheme {
 			text2: darkMode ? "#A8A7AD" : "#586069",
 			text3: darkMode ? "#605C6C" : "#586069",
 
-			primary1: darkMode ? "#00CD9C" : "#0366D6",
-			secondary1: darkMode ? "rgba(0, 205, 156, 0.10)" : "#0366D6",
+			primary1: darkMode ? "#00AEE9" : "#0366D6",
+			secondary1: darkMode ? "rgba(0, 205, 156, 0.10)" : "#00E8A2",
 
 			border1: darkMode ? "#272B31" : "#DEDFE1",
 			border2: darkMode ? "#313131" : "#DEDFE1",
 
-			linkInternal: darkMode ? "#00CD8F" : "#0095D5",
+			linkInternal: darkMode ? "#00AEE9" : "#0095D5",
 			linkExternal: darkMode ? "#808994" : "#586069",
 
 			warning1: "#E1E15B",
@@ -54,8 +54,8 @@ export function theme(darkMode: boolean): DefaultTheme {
 
 			// The colors used for coin selection, and chart lines, these will only be this many allowed selected at a time, first is used as base color for charts and progress bar
 			lineChartColors: darkMode
-				? ["#00CD8F", "#885FB1", "#0095D5", "#F9A234", "#FF7EA8"]
-				: ["#00CD8F", "#885FB1", "#0095D5", "#F9A234", "#FF7EA8"],
+				? ["#00AEE9", "#00E8A2", "#0095D5", "#F9A234", "#FF7EA8"]
+				: ["#00AEE9", "#00E8A2", "#0095D5", "#F9A234", "#FF7EA8"],
 		},
 
 		border: {

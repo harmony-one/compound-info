@@ -342,13 +342,13 @@ export const MARKET_DATA_SELECTOR_INFO: MarketDataSelectorInfoList = {
 	[MarketDataSelector.SUPPLY_APY]: {
 		key: MarketDataSelector.SUPPLY_APY,
 		name: "Supply APY",
-		description: "supply APY excluding COMP",
+		description: "supply APY",
 		unit: Unit.PERCENT,
 	},
 	[MarketDataSelector.BORROW_APY]: {
 		key: MarketDataSelector.BORROW_APY,
 		name: "Borrow APY",
-		description: "borrow APY excluding COMP",
+		description: "borrow APY",
 		unit: Unit.PERCENT,
 	},
 	[MarketDataSelector.TOTAL_SUPPLY_APY]: {

@@ -6,7 +6,7 @@ import { HashRouter, Route, Routes, useSearchParams } from "react-router-dom";
 import smoothscroll from "smoothscroll-polyfill";
 import { matchPath } from "react-router";
 
-import GoogleAnalyticsReporter from "components/analytics/GoogleAnalyticsReporter";
+// import GoogleAnalyticsReporter from "components/analytics/GoogleAnalyticsReporter";
 import Header from "components/Header";
 import Footer from "components/Footer";
 import Overview from "pages/Overview";
@@ -96,7 +96,7 @@ export default function App(): JSX.Element {
 						<Routes>
 							<Route exact strict path="/" element={<Overview />} />
 							<Route exact strict path="/:token" element={<Market />} />
-							<Route component={<GoogleAnalyticsReporter />} />
+							{/* <Route component={<GoogleAnalyticsReporter />} /> */}
 						</Routes>
 					</StyledBody>
 					{!embedded && (

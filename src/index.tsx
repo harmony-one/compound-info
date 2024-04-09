@@ -7,12 +7,12 @@ import GlobalStoreProvider from "data/store";
 import ReactGA from "react-ga";
 
 // Google Analytics
-const trackingId = "UA-199555486-1";
+// const trackingId = "UA-199555486-1";
 
-ReactGA.initialize(trackingId);
-ReactGA.set({
-	customBrowserType: !isMobile ? "desktop" : "web3" in window || "ethereum" in window ? "mobileWeb3" : "mobileRegular",
-});
+// ReactGA.initialize(trackingId);
+// ReactGA.set({
+// 	customBrowserType: !isMobile ? "desktop" : "web3" in window || "ethereum" in window ? "mobileWeb3" : "mobileRegular",
+// });
 
 window.addEventListener("error", (error) => {
 	ReactGA.exception({

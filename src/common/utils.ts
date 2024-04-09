@@ -184,7 +184,7 @@ export function weiToGwei(wei: number): number {
  * @returns etherscan link for the coin address
  */
 export function getEtherscanLink(address: string, linkType: EtherscanLinkType): string {
-	return "https://etherscan.io/" + linkType + "/" + address;
+	return "https://explorer.harmony.one/" + linkType + "/" + address;
 }
 
 /**

@@ -270,10 +270,10 @@ export const TOKEN_INFO: TokenInfoList = {
 	[Token.ONE]: {
 		symbol: Token.ONE,
 		imgSrc: oneSvg,
-		desc: `TBE`,
-		whitepaper: "TBE",
-		website: "TBE",
-		twitter: "TBE",
+		desc: `ONE is a native Harmony network token that is used to pay transaction fees (or “gas”).`,
+		whitepaper: "https://harmony.one/whitepaper.pdf",
+		website: "https://harmony.one/",
+		twitter: "https://twitter.com/harmonyprotocol",
 		coinGecko: "https://www.coingecko.com/en/coins/harmony",
 	},
 };

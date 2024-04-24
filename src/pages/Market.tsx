@@ -265,12 +265,12 @@ export default function Market({ match }): JSX.Element | null {
 									loading={loadingSummaryData}
 								/>
 
-								<StatRow
+								{/* <StatRow
 									title={"Borrow cap"}
 									tooltipContent="The maximum amount of an asset that can be borrowed from the market. The borrow cap is controlled by COMP token holders."
 									value={summaryData ? (summaryData.borrowCap !== "0" ? summaryData.borrowCap : "No limit") : 0}
 									loading={loadingSummaryData}
-								/>
+								/> */}
 								<StatRow
 									title={"Available liquidity"}
 									tooltipContent="The amount of assets that are currently available to be borrowed from the market. "
